@@ -1,0 +1,264 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body{
+    padding: 0%;
+    border: 0%;
+    margin: 0%;
+}
+
+.div-menu{
+    background-color:rgb(255, 191, 105);
+    width: 100%;
+   
+}
+
+.div-menu div{
+    font-size: large;
+    color:black;
+}
+.div-menu table{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 50px;
+    width: 90%;
+}
+.div-menu td{
+    font-size: 150%;
+}
+.div-menu a{
+    color: black;
+    text-decoration: none;
+}
+.td1{
+    width: 45%;
+    
+}
+.td2{
+    width: 10%;
+    
+}
+.td3{
+    width: 10%;
+    
+}
+.td4{
+    width: 10%;
+
+}
+.div-main{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*-moz-background-size: cover;
+    -webkit-background-size: cover;*/
+
+    padding: 5%;
+    padding-bottom: 5%;
+}
+.div-main2{
+    width: 100%;
+
+}
+
+.div-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    width: 50%;
+    
+    font-size: 150%;
+}
+.div-container h1{
+    font-weight: bold;
+    font-size: 400%;
+    margin-bottom:2%;
+    
+}
+.div-container p{
+    margin-top: 0%;
+    
+}
+
+.div-container button{
+    background-color: orange;
+    font-size: 80%;
+    margin-top: 5%;
+    width: 40%;
+    height: 50px;
+    border:none;
+
+}
+.div0{
+    margin-bottom: 10%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+}
+.div0 div{
+    flex-direction: column;
+     justify-content: center;
+     align-items: baseline;
+    width: 50%;
+    
+}
+.div0 h1{
+    margin-left: 25%;
+    text-align: center;
+    width: 50%;
+    color: black;
+}
+
+.div0 p{ 
+    text-align: center;
+    color: black;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(203, 243, 240) ;
+    padding-bottom: 10%;
+}
+.div1 h1{
+    margin-left: 25%;
+    text-align: center;
+    width: 50%;
+    color: black;
+}
+.div1-lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20%;
+}
+.div1-lista p{
+    color: black;
+    text-align: center;
+}
+.div1-lista button{
+    color: black;
+    background-color: orange;
+    border: none;
+    height: 30px;
+    font-size: large;
+}
+.div1-lista-square{
+    /*margin-left: 5%;*/
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+.div1-lista-square img{
+    max-width: 100%;
+    height: auto;
+}
+
+.div1-lista-amongus{
+    /*margin-left: 20%;*/
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+.div1-lista-amongus img{
+    max-width: 100%;
+    height: auto;
+}
+.div1-lista-round{
+   /* margin-left: 20%;*/
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+.div1-lista-round img{
+    max-width: 100%;
+    height: auto;
+}
+.div2{
+    background-image: url("bg-grid.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display:grid;
+    column-gap: 5%;
+}
+.div2-text{ 
+    grid-column-start: 1;
+    margin-top: 2%;
+    margin-left: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.div2-text h1{
+    text-align: left;
+    color: black; 
+
+}
+.div2-text p{
+    text-align: left;
+    color: black; 
+
+}
+
+.div2-img{
+    grid-column-start: 2;
+    margin-top: 2%;
+    padding-right: 0%;
+    width: 50%;
+    height: auto;
+    padding-top: 10;
+}
+.div2-img img{
+    width: 100%;
+    max-height: 100%;
+}
+
+.div-footer{
+    background-color:rgb(51, 51, 51);
+    width: 100%;
+   
+}
+
+.div-footer div{
+    font-size: large;
+    color:black;
+}
+.div-footer table{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 50px;
+    width: 90%;
+}
+.div-footer td{
+    font-size: 100%;
+}
+.div-footer-td1{
+    width: 22%;
+}
+.div-footer-td2{
+    width: 22%;
+}
+.div-footer-td3{
+    width: 22%;
+}
+.div-footer-td4{
+    width: 22%;
+
+}
+.div-footer-td5{
+    width: 22%;
+
+}
+.div-footer a{
+    color: white;
+    text-decoration: none;
+}
