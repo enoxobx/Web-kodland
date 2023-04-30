@@ -3,21 +3,53 @@
     color: white;
 }
 body{
-    padding: 0%;
+    padding:0% ;
     border: 0%;
     margin: 0%;
 }
 
 .div-menu{
     background-color:rgb(255, 191, 105);
-    width: 100%;
+    width: 95%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 35% 20% 20% 15%;
+    padding-top: 3%;
+    padding-left: 5%;
    
 }
 
-.div-menu div{
+.div-menu a{
     font-size: large;
+    text-decoration: none;
     color:black;
+   
 }
+.div-menu-li lu{
+    display: grid;
+}
+
+#home{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#SU_DI_NOI{
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+#SCONTI{
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+}
+#CONTATTI{
+
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+/*
 .div-menu table{
     margin-left: 5%;
     margin-right: 5%;
@@ -46,43 +78,42 @@ body{
 .td4{
     width: 10%;
 
-}
+}*/
 .div-main{
-    background-image: url("background.png");
+    background-image: url("images/background.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    /*-moz-background-size: cover;
-    -webkit-background-size: cover;*/
-
-    padding: 5%;
-    padding-bottom: 5%;
+    background-size: contain;
+    padding: 0% 5% 66.64% 5%;
+    
 }
 .div-main2{
     width: 100%;
 
 }
 
-.div-container{
-    display: flex;
+.div-main-container{
+    /*display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding-left: 5%;
     width: 50%;
     
-    font-size: 150%;
+    font-size: 150%;*/
+    min-width: 100%; 
+    display: grid;
 }
-.div-container h1{
+.div-main-container h1{
     font-weight: bold;
     font-size: 400%;
     margin-bottom:2%;
     
 }
-.div-container p{
+.div-main-container p{
     margin-top: 0%;
     
 }
 
-.div-container button{
+.div-main-container button{
     background-color: orange;
     font-size: 80%;
     margin-top: 5%;
@@ -91,18 +122,20 @@ body{
     border:none;
 
 }
+
 .div0{
+    margin-top: -30%;
     margin-bottom: 10%;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 .div0 div{
     flex-direction: column;
-     justify-content: center;
-     align-items: baseline;
+    justify-content: center;
+    align-items: baseline;
     width: 50%;
     
 }
@@ -179,7 +212,7 @@ body{
     height: auto;
 }
 .div2{
-    background-image: url("bg-grid.png");
+    background-image: url("images/bg-grid.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
@@ -262,3 +295,41 @@ body{
     color: white;
     text-decoration: none;
 }
+
+@media (max-width: 500px) {
+    .div-main{
+        background-image: url("images/background.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    
+        /*-moz-background-size: cover;
+        -webkit-background-size: cover;*/
+        padding: 5%;
+        
+    }
+
+    .div0 {
+      margin-top: 5%;
+    }
+    .div-menu{
+        background-color:rgb(255, 191, 105);
+        width: 95%;
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 20% 20% 20% 20%;
+        padding-top: 3%;
+        padding-left: 5%;
+       
+    }
+    
+  }
+  @media (min-width: 1000px) {
+    
+    .div0{
+        margin-top: -20%;
+        
+    
+    }
+    
+    
+  }
